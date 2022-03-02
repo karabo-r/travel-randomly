@@ -1,6 +1,6 @@
 # travel-randomly
 
-## Read articles or view pictures about beautifully places on earth randomly. 🌎
+## Read articles or view pictures about beautifully places on earth randomly. 🌎💚
 
 Also made for those who want to contribute to a git repo. You can create issues (say hello, voice a feature or bugs...etc) or add links to articles or pictures of strange and beautiful places on earth.
 
