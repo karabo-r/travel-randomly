@@ -32,6 +32,6 @@ function change() {
   }
 }
 
-const interval = setInterval(change, 3000);
+const interval = setInterval(change, 2000);
 
 interval;
