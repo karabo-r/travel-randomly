@@ -26,7 +26,10 @@ let index = 0;
 
 const loopThroughGreetings = () => {
 	title.innerHTML = greetings[index];
-	index >= greetings.length ? (index = 0) : (index += 1);
+  index += 1;
+  if (index >= greetings.length) {
+      index = 0 
+  }
 	changeButtonUrl();
 };
 
