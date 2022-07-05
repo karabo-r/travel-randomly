@@ -28,7 +28,7 @@ And last but not least: Always write your commit messages in the present tense. 
 
 _**If you find this guide difficult to understand, please raise an issue, work on it or let me know on twitter._
 
-__note - all inappropriate additions with be rejected (e.g links to pornagraphic content...etc)__. 
+__note - all inappropriate additions will be rejected (e.g links to pornagraphic content...etc)__. 
 
 
 
