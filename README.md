@@ -12,7 +12,7 @@ Made for those who want to contribute to a git repo. You can create issues (say 
 - Add the original repository as a remote called `upstream`.
 - If you created your fork a while ago be sure to pull upstream changes into your local repository.
 - Create a new branch to work on! Branch from `master`.
-    - In the [module folder](module), you'll find the data folder with a file named [contributorsInformation](./modules/data/contributorsInformation.mjs). Follow the comments written in where you add your name, github link and the link you would like to share.
+    - In the [modules folder](./modules), you'll find the data folder with a file named [contributorsInformation](./modules/data/contributorsInformation.mjs). Follow the comments written in where you add your name, github link and the link you would like to share.
 - #### Optionally
     - Implement/fix your feature, comment your code.
     - Add or change the documentation as needed.
