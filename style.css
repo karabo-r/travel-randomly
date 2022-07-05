@@ -1,118 +1,151 @@
+/* Styles change all the time, why not improve on the design.
+You're welcome to introduce changes to the design (color, layout ...),
+as well as fix a bug you might have noticed and extend on responsiveness. 
+*/
+
 *,
 *::after,
 *::before {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 body {
-  font-size: 3rem;
-  color: #fcfcfa;
-  background-color: #232f5f;
-  font-family: Arial, Helvetica, sans-serif;
+	font-size: 3rem;
+	color: #fcfcfa;
+	background-color: #232f5f;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
-  display: flex;
-  height: 100vh;
-  text-align: center;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+	display: flex;
+	height: 100vh;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .main-title {
-  margin: 0;
+	margin: 0;
 }
 
 .main-description {
-  opacity: 90%;
-  padding: 1rem;
-  font-size: 1.5rem;
-  text-align: center;
+	opacity: 80%;
+	padding: 1rem;
+	font-size: 1.5rem;
+	text-align: center;
 }
 
 .author {
-  font-size: 1.1rem;
-  
+	font-size: 1.1rem;
 }
 .author a {
-  color: black;
-  text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 .main-button {
-  color: black;
-  margin-top: 2%;
-  font-size: 1.2rem;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  background-color: #fcfcfa;
-}
-
-.contact {
-  right: 5rem;
-  bottom: 3rem;
-  position: absolute;
+	color: black;
+	margin-top: 2%;
+	font-size: 1.2rem;
+	padding: 1rem 2rem;
+	text-decoration: none;
+	background-color: #fcfcfa;
 }
 
 .contact-links {
-  display: flex;
+	display: flex;
 }
 
 .contact-links li {
-  font-size: 1.3rem;
-  text-align: center;
-  list-style-type: none;
+	list-style-type: none;
 }
 
 .contact-links li a {
-  opacity: 70%;
-  padding: 0.7rem;
-  color: #fcfcfa;
-  text-decoration: none;
+	opacity: 70%;
+	padding: 0.7rem;
+	text-decoration: none;
+	color: #fcfcfa;
 }
 
-.contact-links li a:hover {
-  opacity: 100%;
+.contact-links li a:hover,
+.contributor-container a:hover {
+	opacity: 100%;
+	color: white;
+}
+
+footer {
+	display: flex;
+	font-size: 1.3rem;
+	text-transform: capitalize;
+	justify-content: space-between;
+	position: absolute;
+	align-items: center;
+	bottom: 2rem;
+	width: 100%;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+
+.contributor-container {
+	padding: 0.7rem;
+	padding-bottom: 1.3rem;
+}
+
+.contributor-container a {
+	opacity: 70%;
+	margin-left: 10px;
+	color: #fcfcfa;
+	text-decoration: none;
+}
+
+.contributor-container a:hover {
+	text-decoration: underline;
+	text-underline-offset: 10px;
 }
 
 @media screen and (max-width: 600px) {
-  
-  body {
-    font-size: 1.5rem;
-  }
+	body {
+		font-size: 1.5rem;
+	}
 
-  .main-title{
-    padding: 2rem;
-  }
+	.main-title {
+		padding: 2rem;
+	}
 
- .main-description{
-   padding-bottom: 2rem;
- }
+	.main-description {
+		padding-bottom: 2rem;
+	}
 
-  .contact {
-    padding: 0;
-    right: 0rem;
-    width: 100%;
-    align-items: center;
-  }
+	.contact {
+		padding: 0;
+		right: 0rem;
+		width: 100%;
+		align-items: center;
+	}
 
-  .contact-links {
-    margin: auto;
-    text-align: center;
-    justify-content: center;
-  }
+	.contact-links {
+		margin: auto;
+		text-align: center;
+		justify-content: center;
+	}
 
-  .contact-links li {
-    padding: 0;
-  }
+	.contact-links li {
+		padding: 0;
+	}
 
-  .contact-links li a {
-    padding: 0.8rem;
-  }
+	.contact-links li a {
+		padding: 0.8rem;
+	}
+
+	footer {
+		display: block;
+	}
+
+	.contributor-container {
+		width: 100%;
+		font-size: 1rem;
+	}
 }
-
-
-
