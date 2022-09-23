@@ -42,7 +42,11 @@ export const contributorsInformation = [
 			'http://www.wutdafuk.com/',
 			'http://chrismckenzie.com/'
 		],
+		name: "Okafor Daniel"
+		github: "https://github.com/Dancentcee"
+		links: [
+			'https://twitter.com/dancentcee'	
+		]
 	},
 ];
-
 
