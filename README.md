@@ -34,3 +34,13 @@ __note - all inappropriate additions will be rejected (e.g links to pornagraphic
 
 
 An altered contribution guide by : [MarcDiethelm](https://gist.github.com/MarcDiethelm/7303312)
+
+
+### git commands that are useful
+git clone: This will clone the original code, example: git clone <your-copy-code>
+git branch: This allows you to make changes without affecting other contributors code, example: git branch 'name-of-the-branch-you-want'
+git checkout:This allows you to switch to the branch you just created, example: git checkout <name-of-your-branch>
+git remote add upstream: Lets you add the original repo as upstream
+git commit -m: This helps you commit the code, example: git commit -m "added git commands to the README.md file"
+ git push origin -u: Allows you to push the original repo online i.e github, example: git push origin -u <name-of-your-branch>
+ git add .: Allows you to save changes you made into your local git repository.
