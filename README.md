@@ -1,6 +1,7 @@
 # travel-randomly
 
 ## Explore all things strange, from articles, websites and pictures found on the internet,     randomly. 🌎💚
+![](assets/screenshot.gif)
 ### [visit website](https://travel-randomly.vercel.app/)
 Made for those who want to contribute to a git repo. You can create issues (say hello, voice a feature or bugs...etc) or __add links__ to articles, websites or pictures of strange things you've found on the internet you'd like to share.
 
